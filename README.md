@@ -1,6 +1,6 @@
-# Jiurl
+# jiurl
 
-Jiurl is a simple browser extension that simplifies and copies Jira URLs to the clipboard. 
+jiurl is a simple browser extension that simplifies and copies Jira URLs to the clipboard. 
 
 ## Usage
 - When the extension's button is clicked, the current URL will be processed and simplified. 
