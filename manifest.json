@@ -1,0 +1,28 @@
+{
+  "name": "Jiurl",
+  "description": "Jira url copier extension.",
+  "author": "Riyaz Sheriff",
+  "homepage_url": "https://riyazsheriff/llagerlof/Jiurl",
+  "version": "2.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Jirul",
+    "default_icon": {
+      "16": "assets/jirul_16.png",
+      "24": "assets/jirul_24.png",
+      "32": "assets/jirul_32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.aderant.atlassian.net/*",
+    "http://*.aderant.atlassian.net/*"
+  ]
+}
