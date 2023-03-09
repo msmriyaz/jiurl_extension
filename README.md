@@ -22,6 +22,8 @@ Jiurl requires the following permissions:
 - Tabs
 - Clipboard Write
 - Scripting
+- activeTab
+- notifications
 
 ## Author 
 Riyaz Sheriff
